@@ -819,9 +819,42 @@ function AboutSection() {
 // Projects Section
 function ProjectsSection() {
   const items = [
-    { title: "Delhi Smart City Dashboard", tag: "Viz + Data", img: "/smart-city-dashboard.png" },
-    { title: "Threat Intel Parser", tag: "TI", img: "/threat-intel-parser.png" },
-    { title: "Secure App Prototype", tag: "AppSec", img: "/secure-app-prototype.png" },
+    {
+      title: "Delhi Smart City Dashboard",
+      tag: "Sustainable Development",
+      img: "/smart-city-dashboard.png",
+      description: "A real-time dashboard for Delhi's smart city initiative, visualizing urban data to improve city management and citizen engagement."
+    },
+    {
+      title: "STEM Code Lab",
+      tag: "Coding Simulations",
+      img: "/threat-intel-parser.png",
+      description: "An interactive platform for students to learn coding through hands-on simulations and challenges."
+    },
+    {
+      title: "Eco Track",
+      tag: "Environmental Monitoring",
+      img: "/eco-track.png",
+      description: "A tool for tracking and analyzing environmental data to promote sustainability and eco-friendly practices."
+    },
+    {
+      title: "AI-Based Camera",
+      tag: "AI in Surveillance",
+      img: "/ai-camera.png",
+      description: "A smart surveillance system using AI to detect and alert on unusual activities in real-time."
+    },
+    {
+      title: "Machine Learning Model and Interpretations of Netflix dataset",
+      tag: "Visualizations and Statistical summaries",
+      img: "/ml-netflix.png",
+      description: "Built and interpreted ML models on Netflix data, providing insights through visualizations and statistics."
+    },
+    {
+      title: "Netflix Clone",
+      tag: "Web Development",
+      img: "/netflix-clone.png",
+      description: "A full-stack clone of Netflix with authentication, streaming UI, and personalized recommendations."
+    },
   ]
   return (
     <section
@@ -838,12 +871,13 @@ function ProjectsSection() {
             </span>
             <h4 className="mt-2 text-lg font-bold text-gray-800 dark:text-white">{p.title}</h4>
             <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-              Short description of the project and the secure problem it addresses.
+              {p.description}
             </p>
           </article>
         ))}
       </div>
     </section>
+    
   )
 }
 
