@@ -455,7 +455,7 @@ function AchievementsSection() {
     {
       title: "Delhi Smart City Command Center",
       subtitle: "Smart City Dashboard Development",
-      issuer: "LaunchED Global",
+      issuer: "Smart City Hackathon",
       date: "May 2025",
       icon: Building,
       bgGradient: "from-red-500 to-pink-600",
