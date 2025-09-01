@@ -887,13 +887,13 @@ function ExperienceSection() {
     {
       role: "Tech Team Member",
       org: "TEDxNIITUniversity",
-      when: "2025",
+      when: "February 2025",
       desc: "Designed webpages all part of the website and helped in operations and technical support.",
     },
     {
       role: "Tech Team Member",
       org: "Sinusoid",
-      when: "2024",
+      when: "August 2024",
       desc: "Helped in the creation phase of the website, helped in event competition, operations and technical support.",
     },
     {
@@ -901,6 +901,12 @@ function ExperienceSection() {
       org: "LaunchED Global",
       when: "May 2025",
       desc: "Built a commercial dashboard for anime website.",
+    },
+    {
+      role: "Virtual Internship – Cybersecurity & AI",
+      org: "NIIT Foundation",
+      when: "July 2025",
+      desc: "Completed 4-week virtual internship focused on Cybersecurity & Artificial Intelligence.",
     },
   ]
   return (
