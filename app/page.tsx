@@ -886,20 +886,21 @@ function ExperienceSection() {
   const items = [
     {
       role: "Tech Team Member",
-      org: "TEDxNIITUniversity",
-      when: "February 2025",
-      desc: "Designed webpages all part of the website and helped in operations and technical support.",
-    },
-    {
-      role: "Tech Team Member",
       org: "Sinusoid",
       when: "August 2024",
       desc: "Helped in the creation phase of the website, helped in event competition, operations and technical support.",
     },
     {
+      role: "Tech Team Member",
+      org: "TEDxNIITUniversity",
+      when: "February 2025",
+      desc: "Designed webpages all part of the website and helped in operations and technical support.",
+    },
+    
+    {
       role: "Web Developer Internship",
       org: "LaunchED Global",
-      when: "May 2025",
+      when: "April 2025",
       desc: "Built a commercial dashboard for anime website.",
     },
     {
